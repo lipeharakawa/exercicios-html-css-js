@@ -1,0 +1,38 @@
+body {
+  /*Alinha os elementos da página ao centro*/
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: #000000;
+  /*Fixa o plano de fundo na página preenchendo-o por um todo*/
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  }
+
+h2 {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 40px;
+  padding: 10px 15px;
+}
+
+button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  color: black;
+}
