@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto Número Maior entre 3 Valores é uma página web que recebe 3 números e escreve qual o maior deles.
 
-- [ Visite o projeto online ]()
+- [ Visite o projeto online ](https://lipeharakawa.github.io/p_w_maior_3_numeros-html-css-js)
 
 ## ✅ Licença
 
