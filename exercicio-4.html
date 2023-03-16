@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Seidi Harakawa">
+    <link rel="stylesheet" href="./exercicios.css">
+    <title>Exercício de JavaScript</title>
+</head>
+<body>
+    <div>
+        <h1>Exercício 4</h1>
+        
+        <h2>Digite o valor</h2>
+        <label for="valor">Valor da compra:</label>
+        <input type="number" id="valor" nome="valor">
+
+        <label for="parcela">Em até 5x sem Juros, 6x a 10x com Juros:</label>
+        <input type="number" id="parcela" nome="parcela">
+        
+        <p id="lista"></p>
+    
+        <a onclick="calcular()">Calcular parcela</a>
+        <a onclick="limpar()">Limpar</a>
+        <a href="index.html" class="botao">Menu principal</a>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

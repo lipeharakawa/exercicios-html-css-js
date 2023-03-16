@@ -5,7 +5,6 @@
 body{
   margin: 0;
   word-wrap: break-word;
-  text-align: justify;
 }
 
 body h1{
@@ -18,10 +17,16 @@ body h2{
   margin-left: 5px;
 }
 
-body p{
-  margin-bottom: 20px;
+label{
   margin-left: 5px;
-  margin-right: 5px;
+}
+
+input{
+  display: block;
+  padding: 7px;
+  color: black;
+  margin-bottom: 30px;
+  margin-left: 5px;
 }
 
 body a{
@@ -35,4 +40,22 @@ body a{
   margin-left: 5px;
 }
 
+.botao{
+  background-color: blue;
+}
 
+@media only screen and (max-width: 350px){
+  body h1{
+    font-size: 28px;
+  }
+  body a{
+    display: flex;
+    max-width: 45%;
+    margin-left: 10px;
+    margin-bottom: 3px;
+  }
+  input{
+    max-width: 80%;
+  }
+}
+ 
